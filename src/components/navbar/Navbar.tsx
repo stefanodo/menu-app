@@ -7,41 +7,41 @@ import Link from "next/link"
 
 export default function Navbar() {
   return (
-    <div className="flex items-center justify-around w-full h-14 bg-gray-100 dark:bg-gray-800">
+    <div className="flex items-center justify-around w-full h-16 bg-gray-100 dark:bg-gray-800">
       <Link
         className="flex flex-col items-center justify-center text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-        href="#"
+        href="/dashboard/main"
       >
         <HomeIcon className="h-6 w-6 mb-1" />
         Home
       </Link>
       <Link
         className="flex flex-col items-center justify-center text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-        href="#"
+        href="/dashboard/entradas"
       >
         <DoorOpenIcon className="h-6 w-6 mb-1" />
-        Entrances
+        Entradas
       </Link>
       <Link
         className="flex flex-col items-center justify-center text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
         href="#"
       >
         <MenuIcon className="h-6 w-6 mb-1" />
-        Main Meals
+        Platos Principales
       </Link>
       <Link
         className="flex flex-col items-center justify-center text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
         href="#"
       >
         <DessertIcon className="h-6 w-6 mb-1" />
-        Desserts
+        Postres
       </Link>
       <Link
         className="flex flex-col items-center justify-center text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
         href="#"
       >
         <BeerIcon className="h-6 w-6 mb-1" />
-        Beverages
+        Bebidas
       </Link>
     </div>
   )

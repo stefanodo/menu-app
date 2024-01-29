@@ -6,12 +6,180 @@ export const metadata = {
     description: 'cualquier cosa'
 }
 
-export default function MainPage() {
+export default function EntradasPage() {
     return (
       <div key="1" className="flex flex-col min-h-screen">
-        <h1>
-            PAGINA PRINCIPAL
-        </h1>
+{/*         <header className="flex items-center justify-between p-4 bg-gray-900 text-white">
+          <div className="flex items-center gap-2">
+            <MenuIcon className="h-8 w-8" />
+            <h1 className="text-2xl font-bold">Delicious Restaurant</h1>
+          </div>
+        </header> */}
+        <main className="flex-1 p-4 bg-gray-100">
+          <section className="mb-8">
+            <h2 className="text-xl font-bold mb-2">Entradas</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="flex gap-4">
+                <Image
+                    alt="Product Image"
+                    className="w-32 h-32 object-cover rounded-md"
+                    height="100"
+                    src={MenuImage}
+                    style={{
+                        aspectRatio: "100/100",
+                        objectFit: "cover",
+                    }}
+                    width="100"
+                />
+                <div className="absolute bottom-2 right-2 bg-white p-1 rounded-full">
+                  <TicketIcon className="h-6 w-6 text-gray-500" />
+                </div>
+                <div className="absolute bottom-2 right-2 bg-white p-1 rounded-full">
+                  <TicketIcon className="h-6 w-6 text-gray-500" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="font-bold">Bruschetta</h3>
+                  <p className="text-gray-500"> $8.00 </p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    A classic Italian starter with fresh tomatoes and basil.
+                  </p>
+                  <div className="flex items-center gap-2">
+                    <WheatIcon className="h-4 w-4" />
+                    <MilkIcon className="h-4 w-4" />
+                    <NutIcon className="h-4 w-4" />
+                    <EggIcon className="h-4 w-4" />
+                    <FishIcon className="h-4 w-4" />
+                    <NutIcon className="h-4 w-4" />
+                    <ShellIcon className="h-4 w-4" />
+                    <VeganIcon className="h-4 w-4" />
+                    <WheatIcon className="h-4 w-4" />
+                  </div>
+                </div>
+                <div className="flex items-center justify-center">
+                  <ChevronRightIcon className="h-6 w-6" />
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <Image
+                    alt="Product Image"
+                    className="w-32 h-32 object-cover rounded-md"
+                    height="100"
+                    src={MenuImage}
+                    style={{
+                        aspectRatio: "100/100",
+                        objectFit: "cover",
+                    }}
+                    width="100"
+                />
+                <div className="absolute bottom-2 right-2 bg-white p-1 rounded-full">
+                  <TicketIcon className="h-6 w-6 text-gray-500" />
+                </div>
+                <div className="absolute bottom-2 right-2 bg-white p-1 rounded-full">
+                  <TicketIcon className="h-6 w-6 text-gray-500" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="font-bold">Bruschetta</h3>
+                  <p className="text-gray-500"> $8.00 </p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    A classic Italian starter with fresh tomatoes and basil.
+                  </p>
+                  <div className="flex items-center gap-2">
+                    <WheatIcon className="h-4 w-4" />
+                    <MilkIcon className="h-4 w-4" />
+                    <NutIcon className="h-4 w-4" />
+                    <EggIcon className="h-4 w-4" />
+                    <FishIcon className="h-4 w-4" />
+                    <NutIcon className="h-4 w-4" />
+                    <ShellIcon className="h-4 w-4" />
+                    <VeganIcon className="h-4 w-4" />
+                    <WheatIcon className="h-4 w-4" />
+                  </div>
+                </div>
+                <div className="flex items-center justify-center">
+                  <ChevronRightIcon className="h-6 w-6" />
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="mb-8">
+            <h2 className="text-xl font-bold mb-2">Platos Principales</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="flex gap-4">
+                <Image
+                  alt="Product Image"
+                  className="w-32 h-32 object-cover rounded-md"
+                  height="100"
+                  src="/placeholder.svg"
+                  style={{
+                    aspectRatio: "100/100",
+                    objectFit: "cover",
+                  }}
+                  width="100"
+                />
+                <div>
+                  <h3 className="font-bold">Chicken Parmesan</h3>
+                  <p className="text-gray-500">$14.00</p>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <Image
+                  alt="Product Image"
+                  className="w-32 h-32 object-cover rounded-md"
+                  height="100"
+                  src="/placeholder.svg"
+                  style={{
+                    aspectRatio: "100/100",
+                    objectFit: "cover",
+                  }}
+                  width="100"
+                />
+                <div>
+                  <h3 className="font-bold">Spaghetti Carbonara</h3>
+                  <p className="text-gray-500">$13.00</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="mb-8">
+            <h2 className="text-xl font-bold mb-2">Postres</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="flex gap-4">
+                <Image
+                  alt="Product Image"
+                  className="w-32 h-32 object-cover rounded-md"
+                  height="100"
+                  src="/placeholder.svg"
+                  style={{
+                    aspectRatio: "100/100",
+                    objectFit: "cover",
+                  }}
+                  width="100"
+                />
+                <div>
+                  <h3 className="font-bold">Tiramisu</h3>
+                  <p className="text-gray-500">$7.00</p>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <Image
+                  alt="Product Image"
+                  className="w-32 h-32 object-cover rounded-md"
+                  height="100"
+                  src="/placeholder.svg"
+                  style={{
+                    aspectRatio: "100/100",
+                    objectFit: "cover",
+                  }}
+                  width="100"
+                />
+                <div>
+                  <h3 className="font-bold">Panna Cotta</h3>
+                  <p className="text-gray-500">$7.00</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
       </div>
     )
   }
