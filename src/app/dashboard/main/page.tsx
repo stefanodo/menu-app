@@ -1,16 +1,11 @@
+import Image from 'next/image';
+import MenuImage from './bruschetta.png';
+
 export const metadata = {
     title: 'Admin Dashboard',
     description: 'cualquier cosa'
 }
 
-import Image from 'next/image';
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/uNe91T34aUr
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
-
-import MenuImage from './bruschetta.png';
 export default function MainPage() {
     return (
       <div key="1" className="flex flex-col min-h-screen">
@@ -48,7 +43,7 @@ export default function MainPage() {
                   <p className="text-sm text-gray-500 dark:text-gray-400">
                     A classic Italian starter with fresh tomatoes and basil.
                   </p>
-                  <div className="flex items-center gap-2 mt-2">
+                  <div className="flex items-center gap-2">
                     <WheatIcon className="h-4 w-4" />
                     <MilkIcon className="h-4 w-4" />
                     <NutIcon className="h-4 w-4" />
@@ -88,7 +83,7 @@ export default function MainPage() {
                   <p className="text-sm text-gray-500 dark:text-gray-400">
                     A classic Italian starter with fresh tomatoes and basil.
                   </p>
-                  <div className="flex items-center gap-2 mt-2">
+                  <div className="flex items-center gap-2">
                     <WheatIcon className="h-4 w-4" />
                     <MilkIcon className="h-4 w-4" />
                     <NutIcon className="h-4 w-4" />
