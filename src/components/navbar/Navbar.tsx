@@ -24,21 +24,21 @@ export default function Navbar() {
       </Link>
       <Link
         className="flex flex-col items-center justify-center text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-        href="#"
+        href="/dashboard/principales"
       >
         <MenuIcon className="h-6 w-6 mb-1" />
         Platos Principales
       </Link>
       <Link
         className="flex flex-col items-center justify-center text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-        href="#"
+        href="/dashboard/postres"
       >
         <DessertIcon className="h-6 w-6 mb-1" />
         Postres
       </Link>
       <Link
         className="flex flex-col items-center justify-center text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-        href="#"
+        href="/dashboard/bebidas"
       >
         <BeerIcon className="h-6 w-6 mb-1" />
         Bebidas

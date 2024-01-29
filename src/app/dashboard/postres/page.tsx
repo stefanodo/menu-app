@@ -2,11 +2,11 @@ import Image from "next/image";
 import MenuImage from "./bruschetta.png";
 
 export const metadata = {
-  title: "Entradas",
+  title: "Postres",
   description: "cualquier cosa",
 };
 
-export default function EntradasPage() {
+export default function PostresPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/*         <header className="flex items-center justify-between p-4 bg-gray-900 text-white">
@@ -17,7 +17,7 @@ export default function EntradasPage() {
         </header> */}
       <main className="flex-1 p-4 bg-white">
         <section className="mb-8">
-          <h2 className="text-xl font-bold mb-2">Entradas</h2>
+          <h2 className="text-xl font-bold mb-2">Postres</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex gap-4">
               <Image
