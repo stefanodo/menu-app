@@ -267,7 +267,7 @@ function NutIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   );
 }
 
-function VeganIcon(props) {
+function VeganIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -288,7 +288,7 @@ function VeganIcon(props) {
   );
 }
 
-function WheatIcon(props) {
+function WheatIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
