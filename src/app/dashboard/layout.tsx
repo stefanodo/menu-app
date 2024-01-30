@@ -12,7 +12,7 @@ export default function DashboardLayout({
           {children}
         </div>
       </div>
-      <div className="absolute bottom-0 w-full">
+      <div className="fixed bottom-0 w-full">
         <Navbar />
       </div>
 
