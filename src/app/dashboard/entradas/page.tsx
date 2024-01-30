@@ -160,7 +160,7 @@ function ChevronRightIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElemen
   );
 }
 
-function EggIcon(props) {
+function EggIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
