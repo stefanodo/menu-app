@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import MenuImage from './bruschetta.png';
 import { SVGProps } from 'react';
 
 export const metadata = {
@@ -10,10 +8,11 @@ export const metadata = {
 export default function MainPage() {
     return (
       <div key="1" className="flex flex-col min-h-screen">
-        <h1>
-            PAGINA PRINCIPAL
-        </h1>
-        <h2>Hola Mundo!!!</h2>
+        <main className="flex-1 p-4 bg-white mt-80">
+            <h1>
+                PAGINA PRINCIPAL
+            </h1>
+        </main>
       </div>
     )
   }
@@ -36,7 +35,6 @@ export default function MainPage() {
       </svg>
     )
   }
-  
   
   function EggIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
     return (
@@ -102,7 +100,6 @@ export default function MainPage() {
     )
   }
   
-  
   function NutIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
     return (
       <svg
@@ -144,7 +141,6 @@ export default function MainPage() {
       </svg>
     )
   }
-  
   
   function WheatIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
     return (
