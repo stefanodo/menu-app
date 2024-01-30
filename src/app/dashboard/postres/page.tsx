@@ -10,27 +10,19 @@ export const metadata = {
 export default function PostresPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/*         <header className="flex items-center justify-between p-4 bg-gray-900 text-white">
-          <div className="flex items-center gap-2">
-            <MenuIcon className="h-8 w-8" />
-            <h1 className="text-2xl font-bold">Delicious Restaurant</h1>
-          </div>
-        </header> */}
-      <main className="flex-1 p-4 bg-white">
+      <main className="flex-1 p-4 bg-white mt-80">
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-2">Postres</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex gap-4">
               <Image
                 alt="Product Image"
-                className="w-32 h-32 object-cover rounded-md"
-                height="100"
+                className="w-24 h-24 object-cover rounded-md"
                 src={MenuImage}
                 style={{
                   aspectRatio: "100/100",
                   objectFit: "cover",
                 }}
-                width="100"
               />
               <div className="flex-1">
                 <h3 className="font-bold">Bruschetta</h3>
@@ -80,14 +72,12 @@ export default function PostresPage() {
             <div className="flex gap-4">
               <Image
                 alt="Product Image"
-                className="w-32 h-32 object-cover rounded-md"
-                height="100"
+                className="w-24 h-24 object-cover rounded-md"
                 src={MenuImage}
                 style={{
                   aspectRatio: "100/100",
                   objectFit: "cover",
                 }}
-                width="100"
               />
               <div className="flex-1">
                 <h3 className="font-bold">Bruschetta</h3>
