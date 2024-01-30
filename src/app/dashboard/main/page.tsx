@@ -13,6 +13,7 @@ export default function MainPage() {
         <h1>
             PAGINA PRINCIPAL
         </h1>
+        <h2>Hola Mundo!!!</h2>
       </div>
     )
   }
