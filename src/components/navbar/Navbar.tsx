@@ -4,6 +4,7 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 import Link from "next/link"
+import { SVGProps } from "react"
 
 export default function Navbar() {
   return (
@@ -47,7 +48,7 @@ export default function Navbar() {
   )
 }
 
-function BeerIcon(props) {
+function BeerIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -71,7 +72,7 @@ function BeerIcon(props) {
 }
 
 
-function DessertIcon(props) {
+function DessertIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -93,7 +94,7 @@ function DessertIcon(props) {
 }
 
 
-function DoorOpenIcon(props) {
+function DoorOpenIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -117,7 +118,7 @@ function DoorOpenIcon(props) {
 }
 
 
-function HomeIcon(props) {
+function HomeIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -138,7 +139,7 @@ function HomeIcon(props) {
 }
 
 
-function MenuIcon(props) {
+function MenuIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
