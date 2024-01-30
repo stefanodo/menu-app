@@ -1,18 +1,18 @@
 import Image from "next/image";
 import MenuImage from "./bruschetta.png";
-import { JSX, SVGProps } from "react";
+import { SVGProps } from "react";
 
 export const metadata = {
-  title: "Platos Principales",
+  title: "Platos principales",
   description: "cualquier cosa",
 };
 
-export default function PrincipalesPage() {
+export default function PlatosPrincipalesPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-1 p-4 bg-white mt-80">
-        <section className="mb-8">
-          <h2 className="text-xl font-bold mb-2">Platos Principales</h2>
+      <main className="flex-1 p-4 bg-white min-h-screen mt-60">
+        <section className="mb-8 mt-10">
+          <h2 className="text-xl font-bold font-sans mb-2">Platos principales</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex gap-4">
               <Image
@@ -25,43 +25,43 @@ export default function PrincipalesPage() {
                 }}
               />
               <div className="flex-1">
-                <h3 className="font-bold">Bruschetta</h3>
-                <p className="text-gray-500"> $8.00 </p>
-                <p className="text-sm text-gray-500 dark:text-gray-400 pb-1">
+                <h3 className="font-bold font-sans">Bruschetta</h3>
+                <p className="text-gray-500 font-sans"> $8.00 </p>
+                <p className="text-sm text-gray-500 dark:text-gray-400 pb-1 font-sans">
                   A classic Italian starter with fresh tomatoes and basil.
                 </p>
                 <div key="1" className="flex items-center gap-2 flex-wrap">
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <WheatIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Gluten</h2>
+                    <h2 className="text-sm font-bold font-sans">Gluten</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <MilkIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Dairy</h2>
+                    <h2 className="text-sm font-bold font-sans">Dairy</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <NutIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Nuts</h2>
+                    <h2 className="text-sm font-bold font-sans">Nuts</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <EggIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Eggs</h2>
+                    <h2 className="text-sm font-bold font-sans">Eggs</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <FishIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Seafood</h2>
+                    <h2 className="text-sm font-bold font-sans">Seafood</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <SproutIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Soy</h2>
+                    <h2 className="text-sm font-bold font-sans">Soy</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <VeganIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Vegan</h2>
+                    <h2 className="text-sm font-bold font-sans">Vegan</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <WheatIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Wheat</h2>
+                    <h2 className="text-sm font-bold font-sans">Wheat</h2>
                   </div>
                 </div>
               </div>
@@ -80,43 +80,43 @@ export default function PrincipalesPage() {
                 }}
               />
               <div className="flex-1">
-                <h3 className="font-bold">Bruschetta</h3>
-                <p className="text-gray-500"> $8.00 </p>
-                <p className="text-sm text-gray-500 dark:text-gray-400 pb-1">
+                <h3 className="font-bold font-sans">Bruschetta</h3>
+                <p className="text-gray-500 font-sans"> $8.00 </p>
+                <p className="text-sm text-gray-500 dark:text-gray-400 pb-1 font-sans">
                   A classic Italian starter with fresh tomatoes and basil.
                 </p>
                 <div key="1" className="flex items-center gap-2 flex-wrap">
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <WheatIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Gluten</h2>
+                    <h2 className="text-sm font-bold font-sans">Gluten</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <MilkIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Dairy</h2>
+                    <h2 className="text-sm font-bold font-sans">Dairy</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <NutIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Nuts</h2>
+                    <h2 className="text-sm font-bold font-sans">Nuts</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <EggIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Eggs</h2>
+                    <h2 className="text-sm font-bold font-sans">Eggs</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <FishIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Seafood</h2>
+                    <h2 className="text-sm font-bold font-sans">Seafood</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <SproutIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Soy</h2>
+                    <h2 className="text-sm font-bold font-sans">Soy</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <VeganIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Vegan</h2>
+                    <h2 className="text-sm font-bold font-sans">Vegan</h2>
                   </div>
                   <div className="bg-gray-100 dark:bg-gray-200 rounded-md p-2 flex items-center gap-2">
                     <WheatIcon className="h-4 w-4" />
-                    <h2 className="text-sm font-medium">Wheat</h2>
+                    <h2 className="text-sm font-bold font-sans">Wheat</h2>
                   </div>
                 </div>
               </div>
