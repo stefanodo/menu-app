@@ -13,6 +13,7 @@ export default function PostresPage() {
       <main className="flex-1 p-4 bg-white mt-80">
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-2">Postres</h2>
+          <h3>Hola mundo</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex gap-4">
               <Image
