@@ -1,5 +1,6 @@
 import Image from "next/image";
 import MenuImage from "./bruschetta.png";
+import { JSX, SVGProps } from "react";
 
 export const metadata = {
   title: "Platos Principales",
@@ -140,7 +141,7 @@ export default function PrincipalesPage() {
   );
 }
 
-function ChevronRightIcon(props) {
+function ChevronRightIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -159,7 +160,7 @@ function ChevronRightIcon(props) {
   );
 }
 
-function EggIcon(props) {
+function EggIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -178,7 +179,7 @@ function EggIcon(props) {
   );
 }
 
-function SproutIcon(props) {
+function SproutIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -200,7 +201,7 @@ function SproutIcon(props) {
   );
 }
 
-function FishIcon(props) {
+function FishIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -224,7 +225,7 @@ function FishIcon(props) {
   );
 }
 
-function MilkIcon(props) {
+function MilkIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -245,7 +246,7 @@ function MilkIcon(props) {
   );
 }
 
-function NutIcon(props) {
+function NutIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -266,7 +267,7 @@ function NutIcon(props) {
   );
 }
 
-function VeganIcon(props) {
+function VeganIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -287,7 +288,7 @@ function VeganIcon(props) {
   );
 }
 
-function WheatIcon(props) {
+function WheatIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
