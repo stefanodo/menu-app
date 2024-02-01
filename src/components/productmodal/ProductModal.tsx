@@ -6,8 +6,7 @@ interface ProductModalProps {
   productImage: StaticImageData;
   productText: string;
 }
-
-const ProductModal: React.FC<ProductModalProps> = ({ productImage, productText }) => {
+export default function ProductModal({ productImage, productText }: ProductModalProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleModal = () => {
@@ -66,5 +65,3 @@ function ChevronRightIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElemen
     </svg>
   );
 }
-
-export default ProductModal;
